@@ -6,7 +6,7 @@ import { CoursesComponent } from '../courses/courses.component';
 import { CourseService } from '../../services/course/course.service';
 import { Course } from '../../interfaces/course.interface';
 import { NgClass, NgStyle, UpperCasePipe } from '@angular/common';
-//import { HoverColorDirective } from '../../directives/hoverColor/hover-color.directive';
+import { HoverColorDirective } from '../../directives/hoverColor/hover-color.directive';
 
 @Component({
   selector: 'app-admin',
@@ -19,7 +19,7 @@ import { NgClass, NgStyle, UpperCasePipe } from '@angular/common';
     NgClass,
     NgStyle,
     UpperCasePipe,
-    //HoverColorDirective
+    HoverColorDirective
   ],
   templateUrl: './admin.component.html',
   styleUrl: './admin.component.scss',
